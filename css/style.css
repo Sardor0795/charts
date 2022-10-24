@@ -181,7 +181,7 @@ button:active {
 .img-card {
   background-image: url("../img/scenes.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 
