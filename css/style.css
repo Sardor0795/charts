@@ -617,9 +617,7 @@ button:active {
     bottom: -12px;
     left: 0px;
   }
-  .side-bar.charts-aside .shapes {
-    margin-right: 15px;
-  }
+
   .side-bar.charts-aside .shapes::before {
     content: "";
     height: 4px;
