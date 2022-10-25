@@ -635,6 +635,10 @@ button:active {
     margin-bottom: 20px;
   }
 
+  .pending {
+    margin-left: unset;
+  }
+
   /* Info */
 
   .info {
