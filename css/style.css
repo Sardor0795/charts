@@ -70,6 +70,7 @@ button:active {
 }
 
 .shapes {
+  position: relative;
   display: flex;
   width: 40px;
   height: 40px;
@@ -481,6 +482,32 @@ button:active {
   display: block;
 }
 
+.side-bar.charts-aside .kw::before {
+  display: none;
+}
+
+.side-bar.charts-aside .kw:active::before {
+  transform: translateY(-2px);
+}
+
+.side-bar.charts-aside .shapes {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+}
+
+.side-bar.charts-aside .shapes::before {
+  content: "";
+  height: 100%;
+  width: 4px;
+  background-color: #4d61f6;
+  border-radius: 0px 5px 5px 0px;
+  position: absolute;
+  left: -12px;
+}
+
 .charts-info-wrapper {
   display: flex;
   align-items: center;
@@ -581,6 +608,19 @@ button:active {
     margin-right: 15px;
   }
   .kw::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #4d61f6;
+    border-radius: 5px 5px 0px 0px;
+    position: absolute;
+    bottom: -12px;
+    left: 0px;
+  }
+  .side-bar.charts-aside .shapes {
+    margin-right: 15px;
+  }
+  .side-bar.charts-aside .shapes::before {
     content: "";
     height: 4px;
     width: 100%;
