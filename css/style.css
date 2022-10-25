@@ -537,8 +537,8 @@ button:active {
   color: #ffffff;
 }
 .o-chart-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 6px;
 }
 
@@ -621,7 +621,7 @@ button:active {
   }
 }
 
-@media (max-width: 589px) {
+@media (max-width: 670px) {
   .o-chart {
     width: 50%;
   }
@@ -630,7 +630,7 @@ button:active {
   }
 }
 
-@media (max-width: 489px) {
+@media (max-width: 530px) {
   .o-chart {
     width: 100%;
   }
