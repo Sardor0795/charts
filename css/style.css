@@ -756,8 +756,8 @@ button:active {
     line-height: 25px;
   }
   .chart-img {
-    width: 65%;
-    height: 161px;
+    width: 100%;
+    height: 190px;
   }
   .doc {
     padding: 15px;
